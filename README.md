@@ -1,6 +1,6 @@
-## RegiSmart
+# RegiSmart
 
-Abstract
+#Abstract
 
 
 The system design described in this document focuses on the development of an efficient and user- friendly study schedule generation and subject registration system. The purpose of this system is to assist students in planning their academic schedules and managing subject registration in an organized manner. The system incorporates intelligent algorithms and user-friendly interfaces to provide personalized study schedules and streamline the subject registration process for students.
