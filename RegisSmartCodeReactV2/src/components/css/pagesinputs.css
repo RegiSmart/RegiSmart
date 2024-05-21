@@ -1,0 +1,373 @@
+
+
+.form-inputs .section-header h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #333;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-inputs .form-inputs-content{
+    width: 47%;
+    background-color: #fff;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 25px;
+    border: 1px solid #0000001f;
+    margin-bottom: 40px;
+}
+
+
+
+.form-inputs .form-inputs-content form h1{
+    font-size: 17px;
+    font-weight: 400;
+    color: #9b9b9b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #00000057;
+}
+
+.form-inputs .form-inputs-content form .input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 44px;
+}
+
+.form-inputs .form-inputs-content form .input label{
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+}
+
+.form-inputs .form-inputs-content form .input input{
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border: 1px solid #aeaeae;
+    font-size: 16px;
+    color: #000;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.form-inputs .form-inputs-content form .input input[type='file']{
+    padding-top: 10px;
+}
+
+
+
+
+.form-inputs .form-inputs-content form .input select{
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border: 1px solid #aeaeae;
+    font-size: 16px;
+    color: #000;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+
+.form-inputs .form-inputs-content form .student-photo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.form-inputs .form-inputs-content form .student-photo img{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    
+}
+
+
+
+.form-inputs .form-inputs-content form .input textarea{
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border: 1px solid #aeaeae;
+    font-size: 16px;
+    color: #000;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.form-inputs .form-inputs-content form button{
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #333333;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.form-inputs .form-inputs-content form button:hover{
+    opacity: 0.8;
+
+}
+
+
+.all-data-table{
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+    padding: 25px;
+    border: 1px solid #0000001f;
+    margin-bottom: 40px;
+}
+
+
+.all-data-table>h1{
+    font-size: 17px;
+    font-weight: 400;
+    color: #9b9b9b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #00000057;
+}
+
+.all-data-table .table-content{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+
+.all-data-table .table-content table{
+    width: 1500px;
+}
+
+.all-data-table .table-content table tr{
+    border-bottom: 1px solid #0000001f;
+}
+
+
+
+.all-data-table .table-content table th h1{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+
+
+.all-data-table .table-content table td h2{
+    font-size: 15px;
+    color: #737373;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+
+.all-data-table .table-content table td button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: #d90101;
+    color: #fff;
+    width: 100px;
+    height: 36px;
+    border-radius: 4px;
+    gap: 6px;
+    transition: 0.5s;
+}
+
+
+
+.all-data-table .table-content table td button:hover{
+    background-color: #980404;
+}
+
+.all-data-table .table-content table td button.print-record{
+    background-color: #3F51B5;
+
+}
+
+.all-data-table .table-content table td button.print-record:hover{
+    background-color: #2b3675;
+
+}
+
+.all-data-table .table-content table td{
+    width: 300px;
+
+}
+
+
+.all-data-table .table-content table td div {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}
+
+.all-data-table .table-content table td a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: #3F51B5;
+    color: #fff;
+    width: 100px;
+    height: 36px;
+    border-radius: 4px;
+    gap: 6px;
+    transition: 0.5s;
+}
+
+.all-data-table .table-content table td a:hover{
+    background-color: #2b3675;
+}
+
+
+.all-data-table .table-content>div{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.all-data-table .table-content>div button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100px;
+    height: 36px;
+    border-radius: 4px;
+    gap: 6px;
+    transition: 0.5s;
+}
+
+.all-data-table .table-content>div button:nth-child(1){
+    background-color: #3F51B5;
+}
+
+.all-data-table .table-content>div button:nth-child(2){
+    background-color: #d90101;
+
+}
+
+@media print {
+    nav {
+        background-color: #f7f7f7;
+        display: none;
+    }
+
+    .form-inputs .section-header h1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid #333;
+        font-size: 20px;
+        font-weight: 500;
+        color: #333;
+        display: none;
+    }
+
+    .all-data-table>h1 {
+        font-size: 17px;
+        font-weight: 400;
+        color: #9b9b9b;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #00000057;
+        display: none;
+    }
+
+
+    .all-data-table .table-content>div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 30px;
+        display: none;
+    }
+
+    .all-data-table .table-content table td div {
+        display: flex;
+        flex-direction: row;
+        gap: 11px;
+        display: none;
+    }
+
+
+    .all-data-table .table-content table td {
+        width: 0px;
+    }
+
+    .print-record, .download-as-pdf-record, .print-all-table, .download-as-pdf-table-content {
+    display: none; /* Hide buttons */
+    }
+
+    .all-data-table .table-content table {
+        width: 100%;
+    }
+}
+
+
+@media(max-width:950px){
+    .form-inputs .form-inputs-content {
+        width: 100%;
+        background-color: #fff;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 10px;
+        padding: 25px;
+        border: 1px solid #0000001f;
+        margin-bottom: 40px;
+    }
+}
